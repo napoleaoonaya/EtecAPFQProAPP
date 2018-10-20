@@ -13,6 +13,7 @@ public class HomeActivity extends AppCompatActivity {
     private ImageView imageRendimento;
     private ImageView imageExcesso;
     private ImageView imageLimitante;
+    private ImageView imageNotas;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +73,17 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(HomeActivity.this, LimitanteActivity.class));
+
+            }
+        });
+
+        //Transição de tela notas
+        imageNotas = (ImageView) findViewById(R.id.imageViewNotas);
+        imageNotas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, NotasActivity.class));
 
             }
         });
