@@ -27,4 +27,21 @@
     <string name="imageExcesso">excessoQuimico</string>
     <string name="imageLimitante">limitanteQuimico</string>
     <string name="imageInformacao">informacaoQuimica</string>
+    <string name="imageInformacaoTela">imageInformacaoAtivo</string>
+    <string name="TextViewBibliografia">Bibliografia</string>
+    <string name="textViewInfoBibliografia">
+    <p><b>Todos direitos de imagem reservados aos sites:</b></p>"\n\n"
+    <p><b>https://www.flaticon.com/</b></p>"\n"
+    <p><b>https://freepik.com</b></p>"\n\n"
+    <p><b>Bibliografia utilizada:</b></p>"\n\n"
+    <p>ATIKINS, Peter. Princípios da Química: Questionando a Vida Moderna e o Meio Ambiente. Ed. Bookman.</p>"\n\n"
+    <p>TITO, Canto. Química na Abordagem do Cotidiano. Volume 2 Físico Química. Ed. Moderna, 4º Edição.</p>"\n\n"
+    <p>FELTRE, Ricardo. Química: Físico Química. Ed. Moderna, 7º Edição.</p>"\n\n"
+    <p>SKOOG, West, Holler, Crouch. Fundamentos de Química Analítica. Ed. Pioneira, 8º Edição, 2005.</p>"\n\n"
+    <p><b>Site referência de ensino:</b></p>"\n\n"
+    <p><b>http://www.etectiquatira.com.br</b></p>"\n\n"
+    <p><b>Estude na ETEC Tiquatira saiba mais em:</b></p>"\n\n"
+    <p><b>http://www.vestibulinhoetec.com.br</b></p>
+    </string>
+    <string name="buttonSaibaMais">SAIBA MAIS</string>
 </resources>
