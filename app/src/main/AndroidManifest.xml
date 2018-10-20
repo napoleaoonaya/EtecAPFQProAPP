@@ -19,7 +19,8 @@
         <activity android:name=".IntegrantesActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
-        <activity android:name=".InformacaoActivity"></activity>
+        <activity android:name=".InformacaoActivity" />
+        <activity android:name=".FormulasActivity"></activity>
     </application>
 
 </manifest>
