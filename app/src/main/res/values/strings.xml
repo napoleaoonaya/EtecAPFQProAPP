@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">EtecAPFQProApp</string>
+    <string name="btnIniciar">INICIAR</string>
+    <string name="imageIniciar">logoEtec</string>
+    <string name="TextViewDesenvolvedores">Desenvolvedores</string>
+    <string name="TextViewNapoleao">Napoleão Kazu Onaya</string>
+    <string name="TextViewVeronica">Veronica Casanova</string>
+    <string name="TextViewOrientadores">Orientadores</string>
+    <string name="TextViewLeandro">Leandro Érico Batista</string>
+    <string name="TextViewMarcos">Marcos Sergent</string>
+    <string name="ButtonIntegrantes">AVANÇAR</string>
+    <string name="TextView2018">2018</string>
+    <string name="TextViewSaoPaulo">São Paulo</string>
+    <string name="imageQuimica">logoQuimica</string>
+    <string name="ButtonLogin">CADASTRAR</string>
+    <string name="NameUser">Digite seu nome</string>
+    <string name="phoneDDI">+55</string>
+    <string name="phoneDDD">11</string>
+    <string name="phoneTelefone">99999-9999</string>
+    <string name="hintNome">Digite seu nome</string>
+    <string name="hintDDI">+55</string>
+    <string name="hintDDD">11</string>
+    <string name="hintPhone">99999-9999</string>
+    <string name="imageNotas">natasQuimica</string>
+    <string name="imageFormulas">formulasQuimicas</string>
+    <string name="imageRendimento">rendimentoQuimico</string>
+    <string name="imageExcesso">excessoQuimico</string>
+    <string name="imageLimitante">limitanteQuimico</string>
+    <string name="imageInformacao">informacaoQuimica</string>
+</resources>
