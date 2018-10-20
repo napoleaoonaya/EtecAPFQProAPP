@@ -224,4 +224,10 @@
     "\n"<p><b>Substância composta:</b> É formada por mais de um elemento químico.Exemplo:NaCl,H<sub>2</sub>O</p>"\n\n"
     </string>
     <string name="imageNotasLogo">imageNotas</string>
+    <string name="TextViewConcentracaoSimples1">Concentração Simples</string>
+    <string name="NameMassa">Massa</string>
+    <string name="NameVolumeConcentracaoSimples">Volume</string>
+    <string name="TextViewResultado">Resultado</string>
+    <string name="ButtonLimparConcentracaoSimples">Limpar</string>
+    <string name="ButtonCalcularConcentracaoSimples">Calcular</string>
 </resources>
