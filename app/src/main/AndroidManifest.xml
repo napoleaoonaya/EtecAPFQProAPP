@@ -20,7 +20,9 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".HomeActivity" />
         <activity android:name=".InformacaoActivity" />
-        <activity android:name=".FormulasActivity"></activity>
+        <activity android:name=".FormulasActivity" />
+        <activity android:name=".RendimentoActivity" />
+        <activity android:name=".ExcessoActivity"></activity>
     </application>
 
 </manifest>

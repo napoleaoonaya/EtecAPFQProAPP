@@ -9,6 +9,9 @@ import android.widget.ImageView;
 public class HomeActivity extends AppCompatActivity {
 
     private ImageView imageInfo;
+    private ImageView imageFormulas;
+    private ImageView imageRendimento;
+    private ImageView imageExcesso;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +25,40 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(HomeActivity.this, InformacaoActivity.class));
+
+            }
+        });
+
+        //Transição de tela para fórmulas
+        imageFormulas = (ImageView) findViewById(R.id.imageViewFormulas);
+        imageFormulas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, FormulasActivity.class));
+
+            }
+        });
+
+
+        //Transição de tela para rendimento
+        imageRendimento = (ImageView) findViewById(R.id.imageViewRendimento);
+        imageRendimento.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, RendimentoActivity.class));
+
+            }
+        });
+
+        //Transição de tela excesso
+        imageExcesso = (ImageView) findViewById(R.id.imageViewExcesso);
+        imageExcesso.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, ExcessoActivity.class));
 
             }
         });
