@@ -174,4 +174,36 @@
     <p><b>m<sub>excesso</sub> = "\("40 - 5"\)"</b></p>"\n"
     <p><b>m<sub>excesso</sub> = 35g de Hidrogênio</b></p>
     </string>
+    <string name="imageLimitanteLogo">imageLimitante</string>
+    <string name="TextViewLimitante">Limitante</string>
+    <string name="TextViewLimitanteInfoT">
+    <p><b>Limitante</b></p>"\n\n"
+    <p><b>Regras para localizar o reagente limitante:</b></p>"\n\n"
+    <p><b>1º Montar a equação química.</b></p>"\n\n"
+    <p><b>2º Balancear a equação.</b></p>"\n\n"
+    <p><b>3º Indentificação dos índices estequiometricos.</b></p>"\n\n"
+    <p><b>4º Cálcular a massa molar multiplicando pelo índice de cada reagente</b></p>"\n\n"
+    <p><b>5º O reagente limitante é aquele que estiver em menor quantidade.</b></p>"\n\n"
+    <p><b>Atenção!:</b>O reagente limitante é aquele que é consumido primeiro na reação química.</p>"\n\n"
+    <p>Foram misturados 40g de gás hidrogênio "\("H<sub>2</sub>"\)" com 40g de gás oxigênio "\("O<sub>2</sub>"\)", com a finalidade de produzir água conforme a equação abaixo:</p>"\n\n"
+    <p>H<sub>2</sub><sub>"\("g"\)"</sub> + O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
+    <p>1H<sub>2</sub><sub>"\("g"\)"</sub> + 1/2O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 1H<sub>2</sub>O<sub>"\("l"\)"</sub> x(2)</p>"\n\n"
+    <p>2H<sub>2</sub><sub>"\("g"\)"</sub> + 1O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 2H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
+    <p>Cálcula-se a massa dos reagentes:</p>"\n\n"
+    <p>Hidrogênio:</p>"\n\n"
+    <p>2H<sub>2</sub> &#x2192; 2H<sub>2</sub>O</p>"\n\n"
+    <p>2x"\("2x1"\)"g &#x2192; 2x"\("2x1 + 1x16"\)"g</p>"\n"
+    <p>40g &#x2190; Y</p>"\n"
+    <p>4 x Y = "\("40 x 36"\)"</p>"\n"
+    <p>Y = "\("40 x 36"\)" / 4</p>"\n"
+    <p>Y = 360g</p>"\n\n"
+    <p>Oxigênio:</p>"\n\n"
+    <p>1O<sub>2</sub> &#x2192; 2H<sub>2</sub>O</p>"\n\n"
+    <p>1x"\("2x16"\)"g &#x2192; 2x"\("2x1 + 1x16"\)"g</p>"\n"
+    <p>32g &#x2190; Z</p>"\n"
+    <p>32 x Z = "\("40 x 36"\)"</p>"\n"
+    <p>Z = "\("40 x 36"\)" / 32</p>"\n"
+    <p>Z = 45g</p>"\n\n"
+    <p>Neste exemplo o reagente limitante é o oxigênio</p>
+    </string>
 </resources>

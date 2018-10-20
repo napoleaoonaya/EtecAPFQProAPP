@@ -22,7 +22,8 @@
         <activity android:name=".InformacaoActivity" />
         <activity android:name=".FormulasActivity" />
         <activity android:name=".RendimentoActivity" />
-        <activity android:name=".ExcessoActivity"></activity>
+        <activity android:name=".ExcessoActivity" />
+        <activity android:name=".LimitanteActivity"></activity>
     </application>
 
 </manifest>
