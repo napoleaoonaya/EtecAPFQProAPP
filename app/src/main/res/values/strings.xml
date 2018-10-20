@@ -206,4 +206,22 @@
     <p>Z = 45g</p>"\n\n"
     <p>Neste exemplo o reagente limitante é o oxigênio</p>
     </string>
+    <string name="TextViewNotas">Notas de Química</string>
+    <string name="TextViewNotasInfoT">
+    <b>Conceito de matéria</b>"\n\n"
+    <p><b>Física</b>: É qualquer coisa que ocupa lugar e está sujeito a inercia.</p>"\n\n"
+    <p><b>Filosofia:</b> É aquilo que existe e forma coisas.</p>"\n\n"
+    <p><b>Química:</b> É sempre constituída por átomos, que por sua vez são formados por partículas menores prótons, nêutrons e elétrons.</p>"\n\n"
+    <p><b>Estados da matéria</b></p>"\n\n"<p>A matéria pode ser encontrada em três estados a nível de ensino medio: <b>sólido</b>,<b>liquido</b> e <b>gasoso</b>, mas o que difere o esta fisíco de cada substância é a sua interação molecular atraves de polaridade.</p>
+    "\n\n"<p><b>Representação do átomo</b></p>
+    "\n\n\n"<p><b><sub><sub>z</sub></sub><b>X</b><sup><sup>A</sup></sup></b></p>"\n\n"
+    "\n\n"<p><b>A</b> é o número de massa atômica, aonde <b>A = p<sup>+</sup> + n<sup>0</sup></b>.</p>
+    "\n\n"<p><b>Z</b> é o número átomico, <b>Z = p<sup>+</sup></b>.</p>
+    "\n\n"<p><b>Particulas do átomo:</b></p>"\n\n"<p><b>Prótons:</b> Possuem carga positiva <b>+</b>.</p>"\n"<p><b>Elétrons:</b> Possuem carga negativa <b>-</b>.</p>"\n"<p><b>Nêutrons:</b> Possuem carga nula.</p>
+    "\n"<p><b>Representação: Prótons p<sup>+</sup>,Neutrôns n<sup>0</sup>,Elétrons e<sup>-</sup></b>.</p>
+    "\n\n"<p><b>Classificação do átomo:</b>"\n\n"<b>Isobáros</b> quando possuem o mesmo número de massa atômica."\n\n"<b>Isotópos</b> quando possuem o mesmo número de prótons."\n\n"<b>Isotónos</b> quando possuem o mesmo números de nêutrons."\n\n"<b>Isoeletrônico ou Isonuclear</b> possuem o mesmo número de elétrons.</p>
+    "\n\n"<p><b>Classificação de substâncias</b></p>"\n\n"<p><b>Substância simples:</b> É formada somente por um único elemento químico.Exemplo:O<sub>2</sub>,Fe,Cu</p>
+    "\n"<p><b>Substância composta:</b> É formada por mais de um elemento químico.Exemplo:NaCl,H<sub>2</sub>O</p>"\n\n"
+    </string>
+    <string name="imageNotasLogo">imageNotas</string>
 </resources>
