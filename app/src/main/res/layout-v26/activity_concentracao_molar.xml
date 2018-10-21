@@ -23,21 +23,23 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextMassaConcentracaoMolarTC"
+        android:id="@+id/editTextMassaMolarConcentracaoMolarTC"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="109dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/NameMassaConcentracaoMolar"
+        android:hint="@string/NameMassaMolarConcentracaoMolarTc"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextVolumeConcentracoMolarTC"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoMolarTC" />
 
     <EditText
         android:id="@+id/editTextVolumeConcentracoMolarTC"
@@ -57,35 +59,37 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewConcentracoMolarTC" />
 
+    <EditText
+        android:id="@+id/editTextMassaConcentracaoMolarTC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/NameMassaConcentracaoMolar"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/textViewConcentracaoMolarResultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="41dp"
-        android:text="@string/TextViewConcentracaoMolarTcR"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextVolumeConcentracoMolarTC" />
-
-    <EditText
-        android:id="@+id/editTextMassaMolarConcentracaoMolarTC"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/NameMassaMolarConcentracaoMolarTc"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextVolumeConcentracoMolarTC"
+        android:text="@string/TextViewConcentracaoMolarTcR"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoMolarTC" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextVolumeConcentracoMolarTC" />
 
     <Button
         android:id="@+id/buttonCalcularConcentracaoMolar"
@@ -95,11 +99,11 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="12dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/ButtonCalcularConcentracaoMolar"
         app:layout_constraintBottom_toTopOf="@+id/buttonLimparConcentracaoMolar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -110,11 +114,10 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:text="@string/ButtonLimparConcentracaoMolar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

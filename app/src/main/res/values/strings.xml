@@ -227,8 +227,15 @@
     <string name="TextViewConcentracaoSimples1">Concentração Simples</string>
     <string name="NameMassa">Massa</string>
     <string name="NameVolumeConcentracaoSimples">Volume</string>
-    <string name="TextViewResultado">Resultado</string>
+    <string name="TextViewResultado">Concentração Simples</string>
     <string name="ButtonLimparConcentracaoSimples">Limpar</string>
     <string name="ButtonCalcularConcentracaoSimples">Calcular</string>
     <string name="ButtonFormCalc1">Clique aqui</string>
+    <string name="TextViewConcentracaoMolarTC">Concentração Molar</string>
+    <string name="NameMassaConcentracaoMolar">Massa</string>
+    <string name="NameVolumeConcentracaoMolarTc">Volume</string>
+    <string name="NameMassaMolarConcentracaoMolarTc">Massa Molar</string>
+    <string name="TextViewConcentracaoMolarTcR">Concentração Molar</string>
+    <string name="ButtonCalcularConcentracaoMolar">Calcular</string>
+    <string name="ButtonLimparConcentracaoMolar">Limpar</string>
 </resources>

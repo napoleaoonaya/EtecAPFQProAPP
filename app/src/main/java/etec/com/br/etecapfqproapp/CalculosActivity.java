@@ -9,6 +9,7 @@ import android.widget.Button;
 public class CalculosActivity extends AppCompatActivity {
 
     private Button buttonConcentracaoSimples;
+    private Button buttonConcentracaoMolar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,20 @@ public class CalculosActivity extends AppCompatActivity {
             }
         });
 
+
+        buttonConcentracaoMolar = (Button) findViewById(R.id.button2);
+
+
+        buttonConcentracaoMolar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                startActivity(new Intent(CalculosActivity.this, ConcentracaoMolarActivity.class));
+
+
+            }
+        });
 
     }
 }
