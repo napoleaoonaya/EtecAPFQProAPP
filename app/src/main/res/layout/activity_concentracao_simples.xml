@@ -30,14 +30,14 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/NameMassa"
         android:inputType="textPersonName"
-        android:text="@string/NameMassa"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewConcentracaoSimples"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewConcentracaoSimples" />
 
     <EditText
         android:id="@+id/editTextVolumeConcentracaoSimples"
@@ -48,14 +48,14 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/NameVolumeConcentracaoSimples"
         android:inputType="textPersonName"
-        android:text="@string/NameVolumeConcentracaoSimples"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoSimples"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoSimples" />
 
     <Button
         android:id="@+id/buttonCalcularConcentracaoSimples"

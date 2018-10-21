@@ -26,7 +26,8 @@
         <activity android:name=".LimitanteActivity" />
         <activity android:name=".NotasActivity" />
         <activity android:name=".ConcentracaoSimplesActivity" />
-        <activity android:name=".CalculosActivity"></activity>
+        <activity android:name=".CalculosActivity" />
+        <activity android:name=".ConcentracaoMolarActivity"></activity>
     </application>
 
 </manifest>

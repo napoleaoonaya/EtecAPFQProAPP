@@ -230,4 +230,5 @@
     <string name="TextViewResultado">Resultado</string>
     <string name="ButtonLimparConcentracaoSimples">Limpar</string>
     <string name="ButtonCalcularConcentracaoSimples">Calcular</string>
+    <string name="ButtonFormCalc1">Clique aqui</string>
 </resources>
