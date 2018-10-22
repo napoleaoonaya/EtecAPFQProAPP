@@ -57,17 +57,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textViewConcentracoMolarTC" />
 
-    <TextView
-        android:id="@+id/textViewConcentracaoMolarResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="41dp"
-        android:text="@string/TextViewConcentracaoMolarTcR"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextVolumeConcentracoMolarTC" />
-
     <EditText
         android:id="@+id/editTextMassaMolarConcentracaoMolarTC"
         android:layout_width="0dp"
@@ -86,6 +75,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoMolarTC" />
+
+    <TextView
+        android:id="@+id/textViewConcentracaoMolarResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/TextViewConcentracaoMolarTcR"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextVolumeConcentracoMolarTC" />
 
     <Button
         android:id="@+id/buttonCalcularConcentracaoMolar"

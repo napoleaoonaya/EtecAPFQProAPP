@@ -27,7 +27,10 @@
         <activity android:name=".NotasActivity" />
         <activity android:name=".ConcentracaoSimplesActivity" />
         <activity android:name=".CalculosActivity" />
-        <activity android:name=".ConcentracaoMolarActivity"></activity>
+        <activity android:name=".ConcentracaoMolarActivity" />
+        <activity android:name=".NormalidadeActivity" />
+        <activity android:name=".NumeroDeMolsActivity" />
+        <activity android:name=".DensidadeActivity"></activity>
     </application>
 
 </manifest>

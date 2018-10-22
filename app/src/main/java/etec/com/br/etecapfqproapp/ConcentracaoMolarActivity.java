@@ -28,12 +28,14 @@ public class ConcentracaoMolarActivity extends AppCompatActivity {
         setContentView(layout.activity_concentracao_molar);
 
 
-        concentracaoMolar = (TextView) findViewById(R.id.textViewConcentracaoMolarResultado);
+
         calcularConcentracaoMolar = (Button) findViewById(R.id.buttonCalcularConcentracaoMolar);
         limparConcentracaoMolar = (Button) findViewById(R.id.buttonLimparConcentracaoMolar);
         editTextMassa = (EditText) findViewById(R.id.editTextMassaConcentracaoMolarTC);
         editTextVolume = (EditText) findViewById(R.id.editTextVolumeConcentracoMolarTC);
         editTextMassaMolar = (EditText) findViewById(R.id.editTextMassaMolarConcentracaoMolarTC);
+        concentracaoMolar = (TextView) findViewById(R.id.textViewConcentracaoMolarResultado);
+
 
 
         calcularConcentracaoMolar.setOnClickListener(new View.OnClickListener() {
@@ -66,10 +68,12 @@ public class ConcentracaoMolarActivity extends AppCompatActivity {
         limparConcentracaoMolar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 editTextMassa.setText("");
                 editTextVolume.setText("");
                 editTextMassaMolar.setText("");
                 concentracaoMolar.setText("");
+
             }
         });
     }

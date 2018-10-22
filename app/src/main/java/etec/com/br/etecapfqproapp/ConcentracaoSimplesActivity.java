@@ -60,9 +60,11 @@ public class ConcentracaoSimplesActivity extends AppCompatActivity {
         limparConcentracao.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 massaConcentracaoSimples.setText("");
                 volumeConcentracaoSimples.setText("");
                 concentracaoSimples.setText("");
+
             }
         });
 

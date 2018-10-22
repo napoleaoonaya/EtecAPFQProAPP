@@ -10,6 +10,8 @@ public class CalculosActivity extends AppCompatActivity {
 
     private Button buttonConcentracaoSimples;
     private Button buttonConcentracaoMolar;
+    private Button buttonNormalidade;
+    private Button buttonNumeroDeMols;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,35 @@ public class CalculosActivity extends AppCompatActivity {
 
             }
         });
+
+        buttonNormalidade = (Button) findViewById(R.id.button3);
+
+
+        buttonNormalidade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                startActivity(new Intent(CalculosActivity.this, NormalidadeActivity.class));
+
+
+            }
+        });
+
+        buttonNumeroDeMols = (Button) findViewById(R.id.button4);
+
+
+        buttonNumeroDeMols.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                startActivity(new Intent(CalculosActivity.this, NumeroDeMolsActivity.class));
+
+
+            }
+        });
+
 
     }
 }

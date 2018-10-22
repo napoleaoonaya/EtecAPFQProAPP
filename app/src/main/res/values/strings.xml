@@ -238,4 +238,16 @@
     <string name="TextViewConcentracaoMolarTcR">Concentração Molar</string>
     <string name="ButtonCalcularConcentracaoMolar">Calcular</string>
     <string name="ButtonLimparConcentracaoMolar">Limpar</string>
+    <string name="TextViewNormalidade">Normalidade</string>
+    <string name="NameEquivalente">Equivalente</string>
+    <string name="NameVolumeNormalidade">Volume</string>
+    <string name="TextViewResultadoNormalidade">Normalidade</string>
+    <string name="ButtonNormalidadeCalcular">Calcular</string>
+    <string name="ButtonLimparNormalidade">Limpar</string>
+    <string name="TextViewNumeroDeMols">Número de Mols</string>
+    <string name="NameNumeroDeMolsMassa">Massa</string>
+    <string name="NameNumeroDeMolsMassaMolar">Massa Molar</string>
+    <string name="TextViewNumeroDeMolsRes">Número de Mols</string>
+    <string name="ButtonCalNMols">Calcular</string>
+    <string name="ButtonLimparNM">Limpar</string>
 </resources>

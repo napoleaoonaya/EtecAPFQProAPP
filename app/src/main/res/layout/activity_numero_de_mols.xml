@@ -4,25 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConcentracaoSimplesActivity">
+    tools:context=".NumeroDeMolsActivity">
 
     <TextView
-        android:id="@+id/textViewConcentracaoSimples"
+        android:id="@+id/textViewNumeroDeMols"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/TextViewConcentracaoSimples1"
+        android:text="@string/TextViewNumeroDeMols"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextMassaConcentracaoSimples"
+        android:id="@+id/editTextMassaNMols2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -30,17 +30,17 @@
         android:layout_marginTop="36dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/NameMassa"
+        android:hint="@string/NameNumeroDeMolsMassa"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewConcentracaoSimples" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewNumeroDeMols"
+        android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextVolumeConcentracaoSimples"
+        android:id="@+id/editTextNumeroDeMolsMassaMolar2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -48,54 +48,53 @@
         android:layout_marginTop="28dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:autofillHints=""
         android:ems="10"
-        android:hint="@string/NameVolumeConcentracaoSimples"
+        android:hint="@string/NameNumeroDeMolsMassaMolar"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMassaConcentracaoSimples" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextMassaNMols2"
+        android:autofillHints="" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginLeft="1dp"
-        android:layout_marginTop="39dp"
-        android:text="@string/TextViewResultado"
-        app:layout_constraintStart_toStartOf="@+id/editTextVolumeConcentracaoSimples"
-        app:layout_constraintTop_toBottomOf="@+id/editTextVolumeConcentracaoSimples" />
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="52dp"
+        android:text="@string/TextViewNumeroDeMolsRes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumeroDeMolsMassaMolar2" />
 
     <Button
-        android:id="@+id/buttonLimparConcentracaoSimples"
+        android:id="@+id/buttonCalcNMols"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="4dp"
-        android:text="@string/ButtonLimparConcentracaoSimples"
+        android:layout_marginBottom="88dp"
+        android:text="@string/ButtonCalNMols"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/buttonCalcularConcentracaoSimples"
+        android:id="@+id/buttonLimparNM"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="12dp"
-        android:text="@string/ButtonCalcularConcentracaoSimples"
-        app:layout_constraintBottom_toTopOf="@+id/buttonLimparConcentracaoSimples"
+        android:layout_marginBottom="8dp"
+        android:text="@string/ButtonLimparNM"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalcNMols" />
 </android.support.constraint.ConstraintLayout>
