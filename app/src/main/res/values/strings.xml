@@ -250,4 +250,7 @@
     <string name="TextViewNumeroDeMolsRes">Número de Mols</string>
     <string name="ButtonCalNMols">Calcular</string>
     <string name="ButtonLimparNM">Limpar</string>
+    <string name="imageCalculadora">Calculadora</string>
+    <string name="imageDoacao">Doacao</string>
+    <string name="imageProfessor">Professor</string>
 </resources>

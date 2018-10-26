@@ -14,6 +14,9 @@ public class HomeActivity extends AppCompatActivity {
     private ImageView imageExcesso;
     private ImageView imageLimitante;
     private ImageView imageNotas;
+    private ImageView imageCalculadora;
+    private ImageView imageProfessor;
+    private ImageView imageDoacao;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,6 +87,18 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(HomeActivity.this, NotasActivity.class));
+
+            }
+        });
+
+
+        //Transição de tela cálculo
+        imageCalculadora = (ImageView) findViewById(R.id.imageViewCalculadora);
+        imageCalculadora.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, CalculosActivity.class));
 
             }
         });
