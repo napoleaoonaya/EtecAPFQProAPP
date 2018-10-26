@@ -7,6 +7,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.github.rtoshiro.util.format.MaskFormatter;
+import com.github.rtoshiro.util.format.SimpleMaskFormatter;
+import com.github.rtoshiro.util.format.text.MaskTextWatcher;
+
 import org.w3c.dom.Text;
 
 public class NormalidadeActivity extends AppCompatActivity {
@@ -28,9 +32,10 @@ public class NormalidadeActivity extends AppCompatActivity {
 
         buttonCalcularNormalidade = (Button) findViewById(R.id.buttonCalcularNormalidade);
         buttonLimparNormalidade = (Button) findViewById(R.id.buttonLimparNormalidade);
-        volumeNormalidade = (EditText) findViewById(R.id.editTextVolumeNormalidade);
-        equivalenteNormalidade = (EditText) findViewById(R.id.editTextEquivalente);
         resultadoNormalidade = (TextView) findViewById(R.id.textView3);
+        equivalenteNormalidade = (EditText) findViewById(R.id.editTextEquivalente);
+        volumeNormalidade = (EditText) findViewById(R.id.editTextVolumeNormalidade);
+
 
         buttonCalcularNormalidade.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +43,9 @@ public class NormalidadeActivity extends AppCompatActivity {
 
 
                 volumeDigitado = volumeNormalidade.getText().toString();
+                volumeDigitado.replaceAll(",",".");
                 equivalenteDigitado = equivalenteNormalidade.getText().toString();
+                equivalenteDigitado.replaceAll(",",".");
 
                 if((volumeDigitado.isEmpty())&&(equivalenteDigitado.isEmpty())) {
 
