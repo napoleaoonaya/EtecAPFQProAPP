@@ -43,9 +43,9 @@ public class NormalidadeActivity extends AppCompatActivity {
 
 
                 volumeDigitado = volumeNormalidade.getText().toString();
-                volumeDigitado.replaceAll(",",".");
+                String volume = volumeDigitado.replaceAll(",",".");
                 equivalenteDigitado = equivalenteNormalidade.getText().toString();
-                equivalenteDigitado.replaceAll(",",".");
+                String equivalente = equivalenteDigitado.replaceAll(",",".");
 
                 if((volumeDigitado.isEmpty())&&(equivalenteDigitado.isEmpty())) {
 
@@ -54,8 +54,8 @@ public class NormalidadeActivity extends AppCompatActivity {
 
                 }else{
 
-                    double equivalenteT = Double.parseDouble(equivalenteDigitado);
-                    double volumeT = Double.parseDouble(volumeDigitado);
+                    double equivalenteT = Double.parseDouble(equivalente);
+                    double volumeT = Double.parseDouble(volume);
                     double resultadoNormalidadeResp = (equivalenteT/volumeT);
 
                     resultadoNormalidade.setText("Normalidade: "+resultadoNormalidadeResp+"N");
