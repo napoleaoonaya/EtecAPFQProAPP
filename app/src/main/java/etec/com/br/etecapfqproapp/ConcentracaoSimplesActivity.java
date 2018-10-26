@@ -38,7 +38,9 @@ public class ConcentracaoSimplesActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 massaDigitada = massaConcentracaoSimples.getText().toString();
+                String massa = massaDigitada.replaceAll(",",".");
                 volumeDigitado = volumeConcentracaoSimples.getText().toString();
+                String volume = volumeDigitado.replaceAll(",",".");
 
                 if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())) {
 
@@ -47,8 +49,8 @@ public class ConcentracaoSimplesActivity extends AppCompatActivity {
 
                 }else{
 
-                    double massaD = Double.parseDouble(massaDigitada);
-                    double volumeD = Double.parseDouble(volumeDigitado);
+                    double massaD = Double.parseDouble(massa);
+                    double volumeD = Double.parseDouble(volume);
                     double concentracaoSimplesD = (massaD/volumeD);
 
                     concentracaoSimples.setText("Concentração Simples: "+concentracaoSimplesD+"g/L");

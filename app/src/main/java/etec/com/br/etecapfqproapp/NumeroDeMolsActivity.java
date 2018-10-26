@@ -35,7 +35,9 @@ public class NumeroDeMolsActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 massaDigitada = massaNM.getText().toString();
+                String massa = massaDigitada.replaceAll(",",".");
                 massaMolarDigitada = massaMolarNM.getText().toString();
+                String massaMolar = massaMolarDigitada.replaceAll(",",".");
 
                 if((massaDigitada.isEmpty())&&(massaMolarDigitada.isEmpty())){
 
@@ -44,8 +46,8 @@ public class NumeroDeMolsActivity extends AppCompatActivity {
 
                 }else {
 
-                    double massaNMD = Double.parseDouble(massaDigitada);
-                    double massaMolarNMD = Double.parseDouble(massaMolarDigitada);
+                    double massaNMD = Double.parseDouble(massa);
+                    double massaMolarNMD = Double.parseDouble(massaMolar);
                     double resultadoNMD = (massaNMD/massaMolarNMD);
 
                     resultadoNM.setText("Número de mols: "+resultadoNMD+"mols");

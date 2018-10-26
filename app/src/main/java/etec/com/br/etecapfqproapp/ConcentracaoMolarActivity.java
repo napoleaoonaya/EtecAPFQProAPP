@@ -43,8 +43,11 @@ public class ConcentracaoMolarActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 massaDigitada = editTextMassa.getText().toString();
+                String massa = massaDigitada.replaceAll(",",".");
                 volumeDigitado = editTextVolume.getText().toString();
+                String volume = volumeDigitado.replaceAll(",",".");
                 massaMolarDigitada = editTextMassaMolar.getText().toString();
+                String massaMolar = massaMolarDigitada.replaceAll(",",".");
 
                 if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())&&(massaMolarDigitada.isEmpty())) {
 
@@ -54,9 +57,9 @@ public class ConcentracaoMolarActivity extends AppCompatActivity {
 
                 }else{
 
-                    double massaD = Double.parseDouble(massaDigitada);
-                    double volumeD = Double.parseDouble(volumeDigitado);
-                    double massaMolarD = Double.parseDouble(massaMolarDigitada);
+                    double massaD = Double.parseDouble(massa);
+                    double volumeD = Double.parseDouble(volume);
+                    double massaMolarD = Double.parseDouble(massaMolar);
                     double concentracaoMolarD = (massaD/(massaMolarD*volumeD));
 
                     concentracaoMolar.setText("Concentração Molar: "+concentracaoMolarD+"mol/L");
