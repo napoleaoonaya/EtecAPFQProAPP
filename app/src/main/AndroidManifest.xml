@@ -30,7 +30,8 @@
         <activity android:name=".ConcentracaoMolarActivity" />
         <activity android:name=".NormalidadeActivity" />
         <activity android:name=".NumeroDeMolsActivity" />
-        <activity android:name=".DensidadeActivity"></activity>
+        <activity android:name=".DensidadeActivity" />
+        <activity android:name=".EntalpiaActivity"></activity>
     </application>
 
 </manifest>
