@@ -304,4 +304,7 @@
     <string name="NameMolaridadeRealBase">M real (base):</string>
     <string name="NameCmCubico">[ 1 cm³  =  1ml ]</string>
     <string name="NameIndicadores">Indicadores</string>
+    <string name="NameDensidade">Densidade</string>
+    <string name="NameCalcularDensidade">Calcular</string>
+    <string name="NameLimparDensidade">Limpar</string>
 </resources>

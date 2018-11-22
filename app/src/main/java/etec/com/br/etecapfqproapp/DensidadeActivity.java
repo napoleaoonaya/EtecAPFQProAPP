@@ -12,57 +12,59 @@ public class DensidadeActivity extends AppCompatActivity {
     private EditText editTextMassa;
     private EditText editTextVolume;
     private TextView textViewDensidade;
-    private Button buttonCalcular7;
-    private Button buttonCalcular8;
+    private Button buttonCalcDensidade;
+    private Button buttonLimpDensidade;
+    String massaDigitada;
+    String volumeDigitado;
+    String densidade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_densidade);
 
+         buttonLimpDensidade = (Button) findViewById(R.id.buttonLimparDensidade);
+         buttonCalcDensidade = (Button) findViewById(R.id.buttonCalcularDensidade);
          editTextMassa = (EditText) findViewById(R.id.editTextMassaDensidade);
          editTextVolume = (EditText) findViewById(R.id.editTextVolumeDensidade);
          textViewDensidade = (TextView) findViewById(R.id.txtDensidadeResultado);
 
-         buttonCalcular7 = (Button) findViewById(R.id.button7);
 
-         buttonCalcular7.setOnClickListener(new View.OnClickListener() {
-
-             String massaDigitada = editTextMassa.getText().toString();
-             String massa = massaDigitada.replaceAll(",", ".");
-             String volumeDigitado = editTextVolume.getText().toString();
-             String volume = volumeDigitado.replaceAll(",", ".");
-
+         buttonCalcDensidade.setOnClickListener(new View.OnClickListener() {
              @Override
-             public void onClick(View v){
+             public void onClick(View v) {
 
+                 massaDigitada = editTextMassa.getText().toString();
+                 String massa = massaDigitada.replaceAll(",",".");
+                 volumeDigitado = editTextVolume.getText().toString();
+                 String volume = volumeDigitado.replaceAll(",",".");
 
-                 if ((massaDigitada.isEmpty()) && (volumeDigitado.isEmpty())) {
+                 if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())){
 
-                     editTextMassa.setText("Informe sua massa!");
-                     editTextVolume.setText("Informe seu volume!");
+                     editTextMassa.setText("Informe a massa!");
+                     editTextVolume.setText("Informe o volume!");
 
-                 } else {
+                 }else{
 
                      double massaD = Double.parseDouble(massa);
                      double volumeD = Double.parseDouble(volume);
                      double densidade = (massaD/volumeD);
 
-                     textViewDensidade.setText("Densidade: "+densidade+"g/cm³");
+                     textViewDensidade.setText("Densidade:"+densidade+"g/cm³");
                  }
-             }
 
+             }
          });
 
-         buttonCalcular8 = (Button) findViewById(R.id.button8);
-         buttonCalcular8.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick (View v){
+         buttonLimpDensidade.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 editTextMassa.setText("");
+                 editTextVolume.setText("");
+                 textViewDensidade.setText("");
+             }
+         });
 
-                editTextMassa.setText("");
-                editTextVolume.setText("");
-                textViewDensidade.setText("");
-            }
-        });
+
     }
 }
