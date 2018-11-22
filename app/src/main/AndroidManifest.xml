@@ -36,6 +36,7 @@
         <activity android:name=".DoacoesActivity" />
         <activity android:name=".DicasProfessor2Activity" />
         <activity android:name=".MenuPadronizacaoActivity" />
+        <activity android:name=".IndicadoresActivity"></activity>
     </application>
 
 </manifest>

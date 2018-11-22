@@ -303,4 +303,5 @@
     <string name="NameFatorCorrecaoReal">Fc (real):</string>
     <string name="NameMolaridadeRealBase">M real (base):</string>
     <string name="NameCmCubico">[ 1 cm³  =  1ml ]</string>
+    <string name="NameIndicadores">Indicadores</string>
 </resources>

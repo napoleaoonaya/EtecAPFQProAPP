@@ -36,5 +36,12 @@ public class MenuPadronizacaoActivity extends AppCompatActivity {
             }
         });
 
+        btn16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuPadronizacaoActivity.this, IndicadoresActivity.class));
+            }
+        });
+
     }
 }

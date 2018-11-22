@@ -28,27 +28,27 @@ public class DensidadeActivity extends AppCompatActivity {
 
          buttonCalcular7.setOnClickListener(new View.OnClickListener() {
 
-             String massa = editTextMassa.getText().toString();
-             String massaD = massa.replaceAll(",", ".");
-             String volume = editTextVolume.getText().toString();
-             String volumeD = volume.replaceAll(",", ".");
+             String massaDigitada = editTextMassa.getText().toString();
+             String massa = massaDigitada.replaceAll(",", ".");
+             String volumeDigitado = editTextVolume.getText().toString();
+             String volume = volumeDigitado.replaceAll(",", ".");
 
              @Override
              public void onClick(View v){
 
 
-                 if ((volume.isEmpty()) && (massa.isEmpty())) {
+                 if ((massa.isEmpty()) && (volume.isEmpty())) {
 
                      editTextMassa.setText("Informe sua massa!");
                      editTextVolume.setText("Informe seu volume!");
 
                  } else {
 
-                     double massaT = Double.parseDouble(massaD);
-                     double volumeT = Double.parseDouble(volumeD);
-                     double densidadeT = (massaT/volumeT);
+                     double massaD = Double.parseDouble(massa);
+                     double volumeD = Double.parseDouble(volume);
+                     double densidade = (massaD/volumeD);
 
-                     textViewDensidade.setText("Densidade: " + densidadeT + "g/cm³");
+                     textViewDensidade.setText("Densidade: "+densidade+"g/cm³");
                  }
              }
 
