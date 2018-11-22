@@ -4,37 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FormulasActivity">
-
-    <ImageView
-        android:id="@+id/imageViewFormulas"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="15dp"
-        android:contentDescription="@string/imageTelaFormula"
-        app:layout_constraintBottom_toTopOf="@+id/ScrollViewDoacoes"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/experiment" />
+    tools:context=".DoacoesActivity">
 
     <TextView
-        android:id="@+id/textViewFormulas"
+        android:id="@+id/textViewDoacoes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="@string/TextViewFormulas"
-        android:textSize="24sp"
+        android:text="Doações"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toEndOf="@+id/imageViewFormulas"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/savings" />
 
     <ScrollView
         android:id="@+id/ScrollViewDoacoes"
@@ -42,6 +39,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="1dp"
@@ -52,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageViewFormulas">
+        app:layout_constraintTop_toBottomOf="@+id/imageView4">
 
         <LinearLayout
             android:id="@+id/LinearLayoutFormulas"
@@ -61,11 +59,12 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewFormulasTela"
+                android:id="@+id/DoacoesEtec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/TextViewFormulaTelas" />
+                android:text="@string/DoacoesEtec" />
 
         </LinearLayout>
     </ScrollView>
+
 </android.support.constraint.ConstraintLayout>

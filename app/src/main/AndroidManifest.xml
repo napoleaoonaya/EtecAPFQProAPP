@@ -31,7 +31,11 @@
         <activity android:name=".NormalidadeActivity" />
         <activity android:name=".NumeroDeMolsActivity" />
         <activity android:name=".DensidadeActivity" />
-        <activity android:name=".EntalpiaActivity"></activity>
+        <activity android:name=".EntalpiaActivity" />
+        <activity android:name=".DicasProfessorActivity" />
+        <activity android:name=".DoacoesActivity" />
+        <activity android:name=".DicasProfessor2Activity" />
+        <activity android:name=".MenuPadronizacaoActivity" />
     </application>
 
 </manifest>

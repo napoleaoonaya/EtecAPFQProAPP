@@ -12,6 +12,7 @@ public class CalculosActivity extends AppCompatActivity {
     private Button buttonConcentracaoMolar;
     private Button buttonNormalidade;
     private Button buttonNumeroDeMols;
+    private Button buttonDensidade;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +77,19 @@ public class CalculosActivity extends AppCompatActivity {
             }
         });
 
+        buttonDensidade = (Button) findViewById(R.id.button6);
+
+
+        buttonDensidade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+                startActivity(new Intent(CalculosActivity.this, DensidadeActivity.class));
+
+
+            }
+        });
 
     }
 }

@@ -103,6 +103,27 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        //Transição de tela padronização
+        imageProfessor = (ImageView) findViewById(R.id.imageViewProfessor);
+        imageProfessor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, MenuPadronizacaoActivity.class));
+
+            }
+        });
+
+        //Transição de tela doações
+        imageDoacao = (ImageView) findViewById(R.id.imageViewDoacoes);
+        imageDoacao.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                startActivity(new Intent(HomeActivity.this, DoacoesActivity.class));
+
+            }
+        });
 
     }
 }

@@ -225,32 +225,82 @@
     </string>
     <string name="imageNotasLogo">imageNotas</string>
     <string name="TextViewConcentracaoSimples1">Concentração Simples</string>
-    <string name="NameMassa">Massa</string>
-    <string name="NameVolumeConcentracaoSimples">Volume</string>
-    <string name="TextViewResultado">Concentração Simples</string>
+    <string name="NameMassa">Massa [g]</string>
+    <string name="NameVolumeConcentracaoSimples">Volume [ml]</string>
+    <string name="TextViewResultado">Concentração Simples [g/l]</string>
     <string name="ButtonLimparConcentracaoSimples">Limpar</string>
     <string name="ButtonCalcularConcentracaoSimples">Calcular</string>
     <string name="ButtonFormCalc1">Clique aqui</string>
     <string name="TextViewConcentracaoMolarTC">Concentração Molar</string>
-    <string name="NameMassaConcentracaoMolar">Massa</string>
-    <string name="NameVolumeConcentracaoMolarTc">Volume</string>
-    <string name="NameMassaMolarConcentracaoMolarTc">Massa Molar</string>
-    <string name="TextViewConcentracaoMolarTcR">Concentração Molar</string>
+    <string name="NameMassaConcentracaoMolar">Massa [g]</string>
+    <string name="NameVolumeConcentracaoMolarTc">Volume [ml]</string>
+    <string name="NameMassaMolarConcentracaoMolarTc">Massa Molar [g/mol]</string>
+    <string name="TextViewConcentracaoMolarTcR">Concentração Molar [mol/l]</string>
     <string name="ButtonCalcularConcentracaoMolar">Calcular</string>
     <string name="ButtonLimparConcentracaoMolar">Limpar</string>
     <string name="TextViewNormalidade">Normalidade</string>
     <string name="NameEquivalente">Equivalente</string>
-    <string name="NameVolumeNormalidade">Volume</string>
-    <string name="TextViewResultadoNormalidade">Normalidade</string>
+    <string name="NameVolumeNormalidade">Volume [ml]</string>
+    <string name="TextViewResultadoNormalidade">Normalidade [N]</string>
     <string name="ButtonNormalidadeCalcular">Calcular</string>
     <string name="ButtonLimparNormalidade">Limpar</string>
     <string name="TextViewNumeroDeMols">Número de Mols</string>
-    <string name="NameNumeroDeMolsMassa">Massa</string>
-    <string name="NameNumeroDeMolsMassaMolar">Massa Molar</string>
-    <string name="TextViewNumeroDeMolsRes">Número de Mols</string>
+    <string name="NameNumeroDeMolsMassa">Massa [g]</string>
+    <string name="NameNumeroDeMolsMassaMolar">Massa Molar [g/mol]</string>
+    <string name="TextViewNumeroDeMolsRes">Número de Mols [mols]</string>
     <string name="ButtonCalNMols">Calcular</string>
     <string name="ButtonLimparNM">Limpar</string>
     <string name="imageCalculadora">Calculadora</string>
     <string name="imageDoacao">Doacao</string>
     <string name="imageProfessor">Professor</string>
+    <string name="TextViewCalculoEntalpia">Cálculo de Entalpia</string>
+    <string name="NameQuantidadeProdutos">Quantidade de produtos:</string>
+    <string name="NameIndiceProdutos">Informe o índice dos produtos:</string>
+    <string name="NameQuantidadeReagentes">Informe a quantidade de reagentes:</string>
+    <string name="NameIndiceReagentes">Informe o índice dos reagentes:</string>
+    <string name="TextViewResultadoEntalpia">Resultado entalpia:</string>
+    <string name="ButtonCalcularEntalpia">Calcular</string>
+    <string name="ButtonLimparEntalpia">Limpar</string>
+    <string name="NameValorProduto">Valor produto:</string>
+    <string name="NameQuantidadeProdutoEntalpia">Número de produtos:</string>
+    <string name="NameSubstancia">A substância é simples ou composta:</string>
+    <string name="NameValorProdutos">Informe o valor dos produtos:</string>
+    <string name="NameInidiceProduto">Informe o índice do produto:</string>
+    <string name="TextViewDicasProfessores">Padronização do HCl</string>
+    <string name="NameConcentracaoMolarPadraoAcido">Concentração Molar [mol/l]</string>
+    <string name="NameMassaMolarPadraoAcido">Massa Molar [g/mol]</string>
+    <string name="NameVolumePadraoAcido">Volume [ml]</string>
+    <string name="NameMassaPadraoAcido">Massa solução [g]</string>
+    <string name="ButtonCalcularMassaPadrao">Calcular</string>
+    <string name="NameTituloPadraoAcido">Título [%]</string>
+    <string name="NameMassaReal">Massa real [g]</string>
+    <string name="NameDensidadeAcidoPadrao">Densidade [g/cm³]</string>
+    <string name="NameVolumeReal">Volume Real [ml]</string>
+    <string name="ButtonLimparPadronizacao">Limpar</string>
+    <string name="NotasAPFQ">Notas de APFQ</string>
+    <string name="FormulasAPFQ">Fórmulas</string>
+    <string name="CalculadoraAPFQ">Calculadora</string>
+    <string name="DoacoesEtec">
+    <p><b>Doações</b></p>"\n\n"
+    <p>Aceitamos doações de insumos de materiais de limpeza, vidraria para laboratório, bem como reagentes, desde que sejam
+    de fontes idoneas.</p>"\n\n"
+    <p>A empresa o entidade que se dispor a nos ajudar pode entrar em contato:</p>"\n\n"
+    <p>Telefone "\("11"\)" 2225-2504 / "\("11"\)"" 2093-2021.</p>"\n\n"
+    <p>Email:secretaria@etectiquatira.com.br.</p>"\n\n"
+    <p>Endereço: Av. Condessa Elisabeth de Robiano, 5200 - Penha CEP 03704-000 - São Paulo/SP.</p>"\n\n"
+    <p>Ajude uma escola e construa um país melhor.</p>
+    </string>
+    <string name="NameMassaDensidade">massa [g]:</string>
+    <string name="NameVolumeDensidade">Volume [cm³]</string>
+    <string name="NameVolumeDens">Volume [cm³]:</string>
+    <string name="NameDensidadeR">Densidade:</string>
+    <string name="NameMolaridadeBase">M(base)</string>
+    <string name="NameVolumeBase">V(base)</string>
+    <string name="NameMolaridadeAcido">M(ácido)</string>
+    <string name="NameVolumeAcido">V(ácido)</string>
+    <string name="NameMassaNaOH">Massa [g]:</string>
+    <string name="NameFatorCorrecaoTeorico">Fc (teórico):</string>
+    <string name="NameFatorCorrecaoReal">Fc (real):</string>
+    <string name="NameMolaridadeRealBase">M real (base):</string>
+    <string name="NameCmCubico">[ 1 cm³  =  1ml ]</string>
 </resources>
