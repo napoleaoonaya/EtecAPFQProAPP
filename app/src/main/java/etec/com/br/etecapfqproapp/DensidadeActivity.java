@@ -20,8 +20,8 @@ public class DensidadeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_densidade);
 
-         editTextMassa = (EditText) findViewById(R.id.editText);
-         editTextVolume = (EditText) findViewById(R.id.editText2);
+         editTextMassa = (EditText) findViewById(R.id.editTextMassaDensidade);
+         editTextVolume = (EditText) findViewById(R.id.editTextVolumeDensidade);
          textViewDensidade = (TextView) findViewById(R.id.txtDensidadeResultado);
 
          buttonCalcular7 = (Button) findViewById(R.id.button7);
@@ -37,7 +37,7 @@ public class DensidadeActivity extends AppCompatActivity {
              public void onClick(View v){
 
 
-                 if ((massa.isEmpty()) && (volume.isEmpty())) {
+                 if ((massaDigitada.isEmpty()) && (volumeDigitado.isEmpty())) {
 
                      editTextMassa.setText("Informe sua massa!");
                      editTextVolume.setText("Informe seu volume!");
