@@ -307,4 +307,8 @@
     <string name="NameDensidade">Densidade</string>
     <string name="NameCalcularDensidade">Calcular</string>
     <string name="NameLimparDensidade">Limpar</string>
+    <string name="NameHCL">Ácido Cloridríco</string>
+    <string name="NameNaOH">Hidróxido de Sódio</string>
+    <string name="NameIndicadoresT">Indicadores</string>
+    <string name="NamePadroni">Padronização</string>
 </resources>
