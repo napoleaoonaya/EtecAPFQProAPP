@@ -44,14 +44,14 @@ public class ConcentracaoSimplesActivity extends AppCompatActivity {
 
                 if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())) {
 
-                    massaConcentracaoSimples.setText("Informe a massa!");
-                    volumeConcentracaoSimples.setText("Informe o volume!");
+                    massaConcentracaoSimples.setText("");
+                    volumeConcentracaoSimples.setText("");
 
                 }else{
 
                     double massaD = Double.parseDouble(massa);
                     double volumeD = Double.parseDouble(volume);
-                    double concentracaoSimplesD = (massaD/volumeD);
+                    double concentracaoSimplesD = (massaD/(volumeD/1000));
 
                     concentracaoSimples.setText("Concentração Simples: "+concentracaoSimplesD+"g/L");
                 }

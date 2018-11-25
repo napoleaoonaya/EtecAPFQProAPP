@@ -61,11 +61,11 @@ public class DicasProfessorActivity extends AppCompatActivity {
                         &&(tituloDig.isEmpty())
                         &&(densidadeDig.isEmpty())){
 
-                    editTextPadraoAcidoConcentracao.setText("Informe sua concentração molar");
-                    editTextMassaMolarPadraoAcido.setText("Informe sua massa molar");
-                    editTextVolumePadraoAcido.setText("Informe seu volume");
-                    editTextTituloPadraoAcido.setText("Informe seu título");
-                    editTextDensidadeAcidoPadrao.setText("Informe a densidade");
+                    editTextPadraoAcidoConcentracao.setText("");
+                    editTextMassaMolarPadraoAcido.setText("");
+                    editTextVolumePadraoAcido.setText("");
+                    editTextTituloPadraoAcido.setText("");
+                    editTextDensidadeAcidoPadrao.setText("");
 
 
                 }else {

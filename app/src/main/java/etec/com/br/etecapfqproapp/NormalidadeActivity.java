@@ -49,8 +49,8 @@ public class NormalidadeActivity extends AppCompatActivity {
 
                 if((volumeDigitado.isEmpty())&&(equivalenteDigitado.isEmpty())) {
 
-                    equivalenteNormalidade.setText("Informe seu equivalente!");
-                    volumeNormalidade.setText("Informe seu volume!");
+                    equivalenteNormalidade.setText("");
+                    volumeNormalidade.setText("");
 
                 }else{
 

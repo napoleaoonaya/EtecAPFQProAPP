@@ -51,16 +51,16 @@ public class ConcentracaoMolarActivity extends AppCompatActivity {
 
                 if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())&&(massaMolarDigitada.isEmpty())) {
 
-                    editTextMassa.setText("Informe a massa!");
-                    editTextVolume.setText("Informe o volume!");
-                    editTextMassaMolar.setText("Informe a massa molar!");
+                    editTextMassa.setText("");
+                    editTextVolume.setText("");
+                    editTextMassaMolar.setText("");
 
                 }else{
 
                     double massaD = Double.parseDouble(massa);
                     double volumeD = Double.parseDouble(volume);
                     double massaMolarD = Double.parseDouble(massaMolar);
-                    double concentracaoMolarD = (massaD/(massaMolarD*volumeD));
+                    double concentracaoMolarD = (massaD/(massaMolarD*(volumeD/1000)));
 
                     concentracaoMolar.setText("Concentração Molar: "+concentracaoMolarD+"mol/L");
                 }

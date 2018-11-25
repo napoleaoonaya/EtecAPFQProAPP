@@ -41,8 +41,8 @@ public class NumeroDeMolsActivity extends AppCompatActivity {
 
                 if((massaDigitada.isEmpty())&&(massaMolarDigitada.isEmpty())){
 
-                    massaNM.setText("Informe a massa!");
-                    massaMolarNM.setText("Informe a massa molar!");
+                    massaNM.setText("");
+                    massaMolarNM.setText("");
 
                 }else {
 

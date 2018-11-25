@@ -41,8 +41,8 @@ public class DensidadeActivity extends AppCompatActivity {
 
                  if((massaDigitada.isEmpty())&&(volumeDigitado.isEmpty())){
 
-                     editTextMassa.setText("Informe a massa!");
-                     editTextVolume.setText("Informe o volume!");
+                     editTextMassa.setText("");
+                     editTextVolume.setText("");
 
                  }else{
 

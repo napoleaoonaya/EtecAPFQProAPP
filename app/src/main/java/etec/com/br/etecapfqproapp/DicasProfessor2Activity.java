@@ -7,110 +7,100 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class DicasProfessor2Activity extends AppCompatActivity {
 
-    private EditText molaridadeAcido;
-    private EditText volumeAcido;
-    private EditText molaridadeBase;
-    private EditText volumeBase;
-    private TextView molaridadeRealBase;
-    private EditText fatorCorrecaoReal;
-    private TextView fatorCorrecaoTeorico;
+    private EditText mAcido;
+    private EditText vAcido;
+    private TextView mBase;
+    private EditText vBase;
+    private EditText fcReal;
+    private TextView fcTeorico;
+    private TextView mReal;
     private Button btnCalcular;
     private Button btnLimpar;
+    String mAcidoDigitado;
+    String vAcidoDigitado;
+    String vBaseDigitado;
+    String fcRealDigitado;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dicas_professor2);
 
-
-        molaridadeAcido = (EditText) findViewById(R.id.editText5);
-        volumeAcido = (EditText) findViewById(R.id.editText6);
-
-        molaridadeBase= (EditText) findViewById(R.id.editText3);
-        volumeBase = (EditText) findViewById(R.id.editText7);
-
-        fatorCorrecaoReal = (EditText) findViewById(R.id.editText8);
-        fatorCorrecaoTeorico = (TextView) findViewById(R.id.textView18);
-
-        molaridadeRealBase = (TextView) findViewById(R.id.textView19);
-
-        btnCalcular = (Button) findViewById(R.id.button12);
+        btnCalcular = (Button) findViewById(R.id.buttonCalcPadraoNaOH);
+        btnLimpar = (Button) findViewById(R.id.buttonLimpPadraoNaOH);
+        mAcido = (EditText) findViewById(R.id.editTextMacido);
+        vAcido = (EditText) findViewById(R.id.editTextVacido);
+        mBase = (TextView) findViewById(R.id.textViewMbase);
+        vBase = (EditText) findViewById(R.id.editTextVbase);
+        fcReal = (EditText) findViewById(R.id.editTextFreal);
+        fcTeorico = (TextView) findViewById(R.id.textViewFcTeo);
+        mReal = (TextView) findViewById(R.id.textViewMrealBase);
 
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String molaridadeAcidoD = molaridadeAcido.getText().toString();
-                String volumeAcidoD = volumeAcido.getText().toString();
 
-                String molaridadeBaseD = molaridadeBase.getText().toString();
-                String volumeBaseD = volumeBase.getText().toString();
+                mAcidoDigitado = mAcido.getText().toString();
+                String mAcidoS = mAcidoDigitado.replaceAll(",",".");
 
-                String fatorCorrecaoRealD = fatorCorrecaoReal.getText().toString();
+                vAcidoDigitado = vAcido.getText().toString();
+                String vAcidoS = vAcidoDigitado.replaceAll(",",".");
 
+                vBaseDigitado = vBase.getText().toString();
+                String vBaseS = vBaseDigitado.replaceAll(",",".");
 
-                if((molaridadeAcidoD.isEmpty())&&(volumeAcidoD.isEmpty())&&(molaridadeBaseD.isEmpty())&&(volumeBaseD.isEmpty())&&(fatorCorrecaoRealD.isEmpty())){
+                fcRealDigitado = fcReal.getText().toString();
+                String fcRealS = fcRealDigitado.replaceAll(",",".");
 
-                    molaridadeAcido.setText("Informe a molaridade do ácido");
-                    volumeAcido.setText("Informe o volume do ácido");
-
-                    molaridadeBase.setText("Informe a molaridade do base");
-                    volumeBase.setText("Informe o volume do base");
-
-                    fatorCorrecaoReal.setText("Informe o fator de correção real");
-
+                if((mAcidoDigitado.isEmpty())&&(vAcidoDigitado.isEmpty())&&(vBaseDigitado.isEmpty())&&(fcRealDigitado.isEmpty())){
+                    mAcido.setText("");
+                    vAcido.setText("");
+                    vBase.setText("");
+                    fcReal.setText("");
                 }else{
+                    double mAcidoD = Double.parseDouble(mAcidoS);
+                    double vAcidoD = Double.parseDouble(vAcidoS);
+                    double vBaseD = Double.parseDouble(vBaseS);
+                    double mBaseD = (mAcidoD*vAcidoD)/vBaseD;
+                    double fcRealD = Double.parseDouble(fcRealS);
 
-                    String molaridadeAcidoRep = molaridadeAcidoD.replaceAll(",",".");
-                    String volumeAcidoRep = volumeAcidoD.replaceAll(",",".");
-                    String molaridadeBaseRep = molaridadeBaseD.replaceAll(",",".");
-                    String volumeBaseRep = volumeBaseD.replaceAll(",",".");
-                    String fatorCorrecaoRealRep = fatorCorrecaoRealD.replaceAll(",",".");
+                    mAcido.setText("M(ácido):"+mAcidoD);
+                    vAcido.setText("V(ácido):"+vAcidoD);
+                    mBase.setText("M(base):"+mBaseD);
+                    vBase.setText("V(base):"+vBaseD);
+                    fcReal.setText("Fc(real):"+fcRealD);
 
-                    double molaridadeAcidoDo = Double.parseDouble(molaridadeAcidoRep);
-                    double volumeAcidoDo = Double.parseDouble(volumeAcidoRep);
+                    fcTeorico.setText("Fc(teórico):"+mBaseD);
 
-                    double molaridadeBaseDo = Double.parseDouble(molaridadeBaseRep);
-                    double volumeBaseDo = Double.parseDouble(volumeBaseRep);
+                    double mRealBase = fcRealD/mBaseD;
 
-                    double fatorCorrecaoRealDo = Double.parseDouble(fatorCorrecaoRealRep);
-
-
-                    double fatorCorrecaoTeoricoDo = (molaridadeBaseDo*volumeBaseDo)/(molaridadeAcidoDo*volumeAcidoDo);
-
-                    fatorCorrecaoTeorico.setText("Fc (teórico): "+fatorCorrecaoTeoricoDo);
-
-                    double molaridadeRealBaseDo = (fatorCorrecaoRealDo/fatorCorrecaoTeoricoDo);
-
-                    molaridadeRealBase.setText("M real (base): "+molaridadeRealBaseDo+"mol/l");
-
+                    mReal.setText("M(real base):"+mRealBase);
 
                 }
 
+
             }
         });
-
-
-
-        btnLimpar = (Button) findViewById(R.id.button13);
 
         btnLimpar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                molaridadeAcido.setText("");
-                volumeAcido.setText("");
-                molaridadeBase.setText("");
-                volumeBase.setText("");
-                fatorCorrecaoReal.setText("");
-                fatorCorrecaoTeorico.setText("");
-                molaridadeRealBase.setText("");
+                mAcido.setText("");
+                vAcido.setText("");
+                mBase.setText("");
+                vBase.setText("");
+                fcReal.setText("");
+                fcTeorico.setText("");
+                mReal.setText("");
             }
         });
 
 
-
     }
 }
+

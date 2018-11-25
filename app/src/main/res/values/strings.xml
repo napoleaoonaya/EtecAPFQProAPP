@@ -33,8 +33,9 @@
     <p><b>Todos direitos de imagem reservados aos sites:</b></p>"\n\n"
     <p><b>https://www.flaticon.com/</b></p>"\n"
     <p><b>https://freepik.com</b></p>"\n\n"
+    <p><b>https://mundoeducacao.bol.uol.com.br/quimica/indicadores-acido-base.htm</b></p>
     <p><b>Bibliografia utilizada:</b></p>"\n\n"
-    <p>ATIKINS, Peter. Princípios da Química: Questionando a Vida Moderna e o Meio Ambiente. Ed. Bookman.</p>"\n\n"
+    <p>ATKINS, Peter. Princípios da Química: Questionando a Vida Moderna e o Meio Ambiente. Ed. Bookman.</p>"\n\n"
     <p>TITO, Canto. Química na Abordagem do Cotidiano. Volume 2 Físico Química. Ed. Moderna, 4º Edição.</p>"\n\n"
     <p>FELTRE, Ricardo. Química: Físico Química. Ed. Moderna, 7º Edição.</p>"\n\n"
     <p>SKOOG, West, Holler, Crouch. Fundamentos de Química Analítica. Ed. Pioneira, 8º Edição, 2005.</p>"\n\n"
@@ -88,10 +89,10 @@
     <string name="TextViewRendimentoTeoria">
     <p><b>Rendimento</b></p>"\n\n"
     <p><b>Regras para o cálculo do redimento:</b></p>"\n\n"
-    <p><b>1º Indentificação do composto problema.</b></p>"\n\n"
+    <p><b>1º Identificação do composto problema.</b></p>"\n\n"
     <p><b>2º Montar a equação química.</b></p>"\n\n"
     <p><b>3º Balancear a equação.</b></p>"\n\n"
-    <p><b>4º Indentificação dos índices estequiometricos.</b></p>"\n\n"
+    <p><b>4º Identificação dos índices estequiometricos.</b></p>"\n\n"
     <p><b>5º Cálcular a massa molar multiplicando pelo índice.</b></p>"\n\n"
     <p><b>6º Cálcular a massa real.</b></p>"\n\n"
     <p><b>7º Cálcular a porcentagem de rendimento.</b></p>"\n\n"
@@ -283,8 +284,8 @@
     <string name="DoacoesEtec">
     <p><b>Doações</b></p>"\n\n"
     <p>Aceitamos doações de insumos de materiais de limpeza, vidraria para laboratório, bem como reagentes, desde que sejam
-    de fontes idoneas.</p>"\n\n"
-    <p>A empresa o entidade que se dispor a nos ajudar pode entrar em contato:</p>"\n\n"
+    de fontes idôneas.</p>"\n\n"
+    <p>A empresa ou entidade que se dispor a nos ajudar pode entrar em contato:</p>"\n\n"
     <p>Telefone "\("11"\)" 2225-2504 / "\("11"\)"" 2093-2021.</p>"\n\n"
     <p>Email:secretaria@etectiquatira.com.br.</p>"\n\n"
     <p>Endereço: Av. Condessa Elisabeth de Robiano, 5200 - Penha CEP 03704-000 - São Paulo/SP.</p>"\n\n"
@@ -294,10 +295,10 @@
     <string name="NameVolumeDensidade">Volume [cm³]</string>
     <string name="NameVolumeDens">Volume [cm³]:</string>
     <string name="NameDensidadeR">Densidade:</string>
-    <string name="NameMolaridadeBase">M(base)</string>
-    <string name="NameVolumeBase">V(base)</string>
-    <string name="NameMolaridadeAcido">M(ácido)</string>
-    <string name="NameVolumeAcido">V(ácido)</string>
+    <string name="NameMolaridadeBase">M(base):</string>
+    <string name="NameVolumeBase">V(base):</string>
+    <string name="NameMolaridadeAcido">M(ácido):</string>
+    <string name="NameVolumeAcido">V(ácido):</string>
     <string name="NameMassaNaOH">Massa [g]:</string>
     <string name="NameFatorCorrecaoTeorico">Fc (teórico):</string>
     <string name="NameFatorCorrecaoReal">Fc (real):</string>
@@ -311,4 +312,9 @@
     <string name="NameNaOH">Hidróxido de Sódio</string>
     <string name="NameIndicadoresT">Indicadores</string>
     <string name="NamePadroni">Padronização</string>
+    <string name="NameMBase">M(base):</string>
+    <string name="NamePadraoNaOHHCl">Padronização do NaOH com HCl</string>
+    <string name="NameCalcPadraoNaOH">CALCULAR</string>
+    <string name="NameLimpPadraoNaOH">LIMPAR</string>
+    <string name="NameMreal">M(real base):</string>
 </resources>
