@@ -62,7 +62,7 @@
     <p><b>d</b> densidade <b>g/cm<sup>3</sup></b></p>"\n"
     <p><b>m</b> massa é dada em gramas <b>g</b>.</p>"\n"
     <p><b>V</b> volume é dado em <b>cm<sup>3</sup></b>.</p>"\n\n"
-    <p><b>Tabela de conversão de undidade volumétrica:</b></p>"\n\n"
+    <p><b>Tabela de conversão de unidade volumétrica:</b></p>"\n\n"
     <p><b>1L</b> = <b>1000cm<sup>3</sup></b></p>"\n"
     <p><b>1cm<sup>3</sup></b> = <b>0,001L</b></p>"\n"
     <p><b>1dm<sup>3</sup></b> = <b>1L</b></p>"\n"
@@ -88,17 +88,17 @@
     <string name="imageRendimentoLogo">imageRendimentoLogo</string>
     <string name="TextViewRendimentoTeoria">
     <p><b>Rendimento</b></p>"\n\n"
-    <p><b>Regras para o cálculo do redimento:</b></p>"\n\n"
+    <p><b>Regras para o calculo do redimento:</b></p>"\n\n"
     <p><b>1º Identificação do composto problema.</b></p>"\n\n"
     <p><b>2º Montar a equação química.</b></p>"\n\n"
     <p><b>3º Balancear a equação.</b></p>"\n\n"
-    <p><b>4º Identificação dos índices estequiometricos.</b></p>"\n\n"
-    <p><b>5º Cálcular a massa molar multiplicando pelo índice.</b></p>"\n\n"
-    <p><b>6º Cálcular a massa real.</b></p>"\n\n"
-    <p><b>7º Cálcular a porcentagem de rendimento.</b></p>"\n\n"
+    <p><b>4º Identificação dos índices estequiométricos.</b></p>"\n\n"
+    <p><b>5º Calcular a massa molar multiplicando pelo índice.</b></p>"\n\n"
+    <p><b>6º Calcular a massa real.</b></p>"\n\n"
+    <p><b>7º Calcular a porcentagem de rendimento.</b></p>"\n\n"
     <p>Exemplo:</p>"\n\n"
     <p>Dados: Na combustão de 30g de Carbono, têm-se um rendimento de 90%</p>"\n\n"
-    <p>Indentificação do problema</p>"\n\n"
+    <p>Identificação do problema</p>"\n\n"
     <p>Qual o rendimento para combustão de 30g de Carbono, massa real de Carbono = ? já que fora dado a porcentagem de rendimento de 90%</p>"\n\n"
     <p><b>C<sub>"\("s"\)"</sub> + O<sub>2</sub><sub>"\("g"\)"</sub></b> &#x2192; <b>CO<sub>2</sub><sub>"\("g"\)"</sub></b></p>"\n\n"
     <p>Balanceamento:</p>"\n\n"
@@ -131,19 +131,19 @@
     <string name="imageExcessoLogo">imageExcessoLogos</string>
     <string name="TextViewExcessoInfoT">
     <p><b>Excesso</b></p>"\n\n"
-    <p><b>Regras para cálculo do excesso:</b></p>"\n\n"
+    <p><b>Regras para calculo do excesso:</b></p>"\n\n"
     <p><b>1º Montar a equação química.</b></p>"\n\n"
     <p><b>2º Balancear a equação.</b></p>"\n\n"
-    <p><b>3º Indentificação dos índices estequiometricos.</b></p>"\n\n"
-    <p><b>4º Cálcular a massa molar multiplicando pelo índice de cada reagente</b></p>"\n\n"
+    <p><b>3º Identificação dos índices estequiometricos.</b></p>"\n\n"
+    <p><b>4º Calcular a massa molar multiplicando pelo índice de cada reagente</b></p>"\n\n"
     <p><b>5º O reagente limitante é aquele que estiver em menor quantidade.</b></p>"\n\n"
     <p><b>Atenção!:</b>O reagente limitante é aquele que é consumido primeiro na reação química.</p>"\n\n"
-    <p><b>6º Cálcula-se o excesso: m<sub>excesso</sub> = m<sub>amostra</sub> - m<sub>reagiu</sub></b></p>"\n\n"
+    <p><b>6º Calcula-se o excesso: m<sub>excesso</sub> = m<sub>amostra</sub> - m<sub>reagiu</sub></b></p>"\n\n"
     <p>Foram misturados 40g de gás hidrogênio "\("H<sub>2</sub>"\)" com 40g de gás oxigênio "\("O<sub>2</sub>"\)", com a finalidade de produzir água conforme a equação abaixo:</p>"\n\n"
     <p>H<sub>2</sub><sub>"\("g"\)"</sub> + O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
     <p>1H<sub>2</sub><sub>"\("g"\)"</sub> + 1/2O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 1H<sub>2</sub>O<sub>"\("l"\)"</sub> x(2)</p>"\n\n"
     <p>2H<sub>2</sub><sub>"\("g"\)"</sub> + 1O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 2H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
-    <p>Cálcula-se a massa dos reagentes:</p>"\n\n"
+    <p>Calcula-se a massa dos reagentes:</p>"\n\n"
     <p>Hidrogênio:</p>"\n\n"
     <p>2H<sub>2</sub> &#x2192; 2H<sub>2</sub>O</p>"\n\n"
     <p>2x"\("2x1"\)"g &#x2192; 2x"\("2x1 + 1x16"\)"g</p>"\n"
@@ -159,7 +159,7 @@
     <p>Z = "\("40 x 36"\)" / 32</p>"\n"
     <p>Z = 45g</p>"\n\n"
     <p>Neste exemplo o reagente limitante é o oxigênio</p>"\n\n"
-    <p>Sabendo-se qual o reagente é o limitante, cálcula-se o excesso:</p>"\n\n"
+    <p>Sabendo-se qual o reagente é o limitante, calcula-se o excesso:</p>"\n\n"
     <p><b>m<sub>excesso</sub> = m<sub>amostra</sub> - m<sub>reagiu</sub></b></p>"\n"
     <p><b>m<sub>amostra</sub> = 40g</b></p>"\n"
     <p><b>m<sub>reagiu</sub> = ?</b></p>"\n\n"
@@ -182,15 +182,15 @@
     <p><b>Regras para localizar o reagente limitante:</b></p>"\n\n"
     <p><b>1º Montar a equação química.</b></p>"\n\n"
     <p><b>2º Balancear a equação.</b></p>"\n\n"
-    <p><b>3º Indentificação dos índices estequiometricos.</b></p>"\n\n"
-    <p><b>4º Cálcular a massa molar multiplicando pelo índice de cada reagente</b></p>"\n\n"
+    <p><b>3º Indentificação dos índices estequiométricos.</b></p>"\n\n"
+    <p><b>4º Calcular a massa molar multiplicando pelo índice de cada reagente</b></p>"\n\n"
     <p><b>5º O reagente limitante é aquele que estiver em menor quantidade.</b></p>"\n\n"
     <p><b>Atenção!:</b>O reagente limitante é aquele que é consumido primeiro na reação química.</p>"\n\n"
     <p>Foram misturados 40g de gás hidrogênio "\("H<sub>2</sub>"\)" com 40g de gás oxigênio "\("O<sub>2</sub>"\)", com a finalidade de produzir água conforme a equação abaixo:</p>"\n\n"
     <p>H<sub>2</sub><sub>"\("g"\)"</sub> + O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
     <p>1H<sub>2</sub><sub>"\("g"\)"</sub> + 1/2O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 1H<sub>2</sub>O<sub>"\("l"\)"</sub> x(2)</p>"\n\n"
     <p>2H<sub>2</sub><sub>"\("g"\)"</sub> + 1O<sub>2</sub><sub>"\("g"\)"</sub> &#x2192; 2H<sub>2</sub>O<sub>"\("l"\)"</sub></p>"\n\n"
-    <p>Cálcula-se a massa dos reagentes:</p>"\n\n"
+    <p>Calcula-se a massa dos reagentes:</p>"\n\n"
     <p>Hidrogênio:</p>"\n\n"
     <p>2H<sub>2</sub> &#x2192; 2H<sub>2</sub>O</p>"\n\n"
     <p>2x"\("2x1"\)"g &#x2192; 2x"\("2x1 + 1x16"\)"g</p>"\n"
@@ -210,17 +210,17 @@
     <string name="TextViewNotas">Notas de Química</string>
     <string name="TextViewNotasInfoT">
     <b>Conceito de matéria</b>"\n\n"
-    <p><b>Física</b>: É qualquer coisa que ocupa lugar e está sujeito a inercia.</p>"\n\n"
+    <p><b>Física</b>: É qualquer coisa que ocupa lugar e está sujeito a inércia.</p>"\n\n"
     <p><b>Filosofia:</b> É aquilo que existe e forma coisas.</p>"\n\n"
     <p><b>Química:</b> É sempre constituída por átomos, que por sua vez são formados por partículas menores prótons, nêutrons e elétrons.</p>"\n\n"
-    <p><b>Estados da matéria</b></p>"\n\n"<p>A matéria pode ser encontrada em três estados a nível de ensino medio: <b>sólido</b>,<b>liquido</b> e <b>gasoso</b>, mas o que difere o esta fisíco de cada substância é a sua interação molecular atraves de polaridade.</p>
+    <p><b>Estados da matéria</b></p>"\n\n"<p>A matéria pode ser encontrada em três estados a nível de ensino médio: <b>sólido</b>,<b>líquido</b> e <b>gasoso</b>, mas o que difere o esta físico de cada substância é a sua interação molecular através de polaridade.</p>
     "\n\n"<p><b>Representação do átomo</b></p>
     "\n\n\n"<p><b><sub><sub>z</sub></sub><b>X</b><sup><sup>A</sup></sup></b></p>"\n\n"
     "\n\n"<p><b>A</b> é o número de massa atômica, aonde <b>A = p<sup>+</sup> + n<sup>0</sup></b>.</p>
     "\n\n"<p><b>Z</b> é o número átomico, <b>Z = p<sup>+</sup></b>.</p>
     "\n\n"<p><b>Particulas do átomo:</b></p>"\n\n"<p><b>Prótons:</b> Possuem carga positiva <b>+</b>.</p>"\n"<p><b>Elétrons:</b> Possuem carga negativa <b>-</b>.</p>"\n"<p><b>Nêutrons:</b> Possuem carga nula.</p>
     "\n"<p><b>Representação: Prótons p<sup>+</sup>,Neutrôns n<sup>0</sup>,Elétrons e<sup>-</sup></b>.</p>
-    "\n\n"<p><b>Classificação do átomo:</b>"\n\n"<b>Isobáros</b> quando possuem o mesmo número de massa atômica."\n\n"<b>Isotópos</b> quando possuem o mesmo número de prótons."\n\n"<b>Isotónos</b> quando possuem o mesmo números de nêutrons."\n\n"<b>Isoeletrônico ou Isonuclear</b> possuem o mesmo número de elétrons.</p>
+    "\n\n"<p><b>Classificação do átomo:</b>"\n\n"<b>Isóbaros</b> quando possuem o mesmo número de massa atômica."\n\n"<b>Isótopos</b> quando possuem o mesmo número de prótons."\n\n"<b>Isótonos</b> quando possuem o mesmo número de nêutrons."\n\n"<b>Isoeletrônico ou Isonuclear</b> possuem o mesmo número de elétrons.</p>
     "\n\n"<p><b>Classificação de substâncias</b></p>"\n\n"<p><b>Substância simples:</b> É formada somente por um único elemento químico.Exemplo:O<sub>2</sub>,Fe,Cu</p>
     "\n"<p><b>Substância composta:</b> É formada por mais de um elemento químico.Exemplo:NaCl,H<sub>2</sub>O</p>"\n\n"
     </string>
@@ -308,7 +308,7 @@
     <string name="NameDensidade">Densidade</string>
     <string name="NameCalcularDensidade">Calcular</string>
     <string name="NameLimparDensidade">Limpar</string>
-    <string name="NameHCL">Ácido Cloridríco</string>
+    <string name="NameHCL">Ácido Clorídrico</string>
     <string name="NameNaOH">Hidróxido de Sódio</string>
     <string name="NameIndicadoresT">Indicadores</string>
     <string name="NamePadroni">Padronização</string>
@@ -317,4 +317,24 @@
     <string name="NameCalcPadraoNaOH">CALCULAR</string>
     <string name="NameLimpPadraoNaOH">LIMPAR</string>
     <string name="NameMreal">M(real base):</string>
+    <string name="concentra_o_molar">Concentração Molar</string>
+    <string name="normalidade">Normalidade</string>
+    <string name="n_mero_de_mols">Número de Mols</string>
+    <string name="densidade">Densidade</string>
+    <string name="concentra_o_simples">Concentração Simples</string>
+    <string name="limitante">Limitante</string>
+    <string name="c_lculadora">Cálculadora</string>
+    <string name="notas_de_apfq">Notas de APFQ</string>
+    <string name="rendimento">Rendimento</string>
+    <string name="doa_es">Doações</string>
+    <string name="informa_es">Informações</string>
+    <string name="padroniza_o">Padronização</string>
+    <string name="excesso">Excesso</string>
+    <string name="f_rmulas">Fórmulas</string>
+    <string name="NameLogin">AVANÇAR</string>
+    <string name="btnLogin">AVANÇAR</string>
+    <string name="NameLoginTexto">
+        <p>O aplicativo foi desenvolvido somente para fins acadêmicos, caso queira dar alguma sugestão de melhoria
+             ou correção de erros,entre em contato com os desenvolvedores ligando para ETEC Tiquatira.</p>
+    </string>
 </resources>

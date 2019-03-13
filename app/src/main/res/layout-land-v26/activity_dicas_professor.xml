@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewDicasProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/TextViewDicasProfessores"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextDensidadeAcidoPadrao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPadraoAcidoConcentracao"
+        android:layout_width="270dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/NameConcentracaoMolarPadraoAcido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/editTextDensidadeAcidoPadrao"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDicasProfessor" />
+
+    <EditText
+        android:id="@+id/editTextMassaMolarPadraoAcido"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/NameMassaMolarPadraoAcido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMassaPadraoAcidoSolucao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPadraoAcidoConcentracao" />
+
+    <EditText
+        android:id="@+id/editTextVolumePadraoAcido"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/NameVolumePadraoAcido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewMassaReal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextMassaMolarPadraoAcido" />
+
+    <TextView
+        android:id="@+id/textViewMassaPadraoAcidoSolucao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="7dp"
+        android:hint="@string/NameMassaPadraoAcido"
+        app:layout_constraintBottom_toTopOf="@+id/textViewMassaReal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextMassaMolarPadraoAcido"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDensidadeAcidoPadrao" />
+
+    <EditText
+        android:id="@+id/editTextTituloPadraoAcido"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="left"
+        android:hint="@string/NameTituloPadraoAcido"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textViewVolumeReal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextVolumePadraoAcido" />
+
+    <TextView
+        android:id="@+id/textViewMassaReal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="13dp"
+        android:hint="@string/NameMassaReal"
+        app:layout_constraintBottom_toTopOf="@+id/textViewVolumeReal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextVolumePadraoAcido"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMassaPadraoAcidoSolucao" />
+
+    <EditText
+        android:id="@+id/editTextDensidadeAcidoPadrao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="right"
+        android:hint="@string/NameDensidadeAcidoPadrao"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewMassaPadraoAcidoSolucao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextPadraoAcidoConcentracao"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDicasProfessor" />
+
+    <TextView
+        android:id="@+id/textViewVolumeReal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="83dp"
+        android:hint="@string/NameVolumeReal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTituloPadraoAcido"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMassaReal" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="@string/ButtonLimparPadronizacao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/ButtonCalcularMassaPadrao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

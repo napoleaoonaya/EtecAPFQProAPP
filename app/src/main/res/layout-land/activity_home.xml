@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageViewNotas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginRight="44dp"
+        android:layout_marginBottom="69dp"
+        android:contentDescription="@string/imageNotas"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLimitante"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewFormulas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/notepad" />
+
+    <ImageView
+        android:id="@+id/imageViewFormulas"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="69dp"
+        android:contentDescription="@string/imageFormulas"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewDoacoes"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewCalculadora"
+        app:layout_constraintStart_toEndOf="@+id/imageViewNotas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/experiment" />
+
+    <ImageView
+        android:id="@+id/imageViewExcesso"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/imageExcesso"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewRendimento"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/balance" />
+
+    <ImageView
+        android:id="@+id/imageViewLimitante"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="74dp"
+        android:contentDescription="@string/imageLimitante"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewDoacoes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNotas"
+        app:srcCompat="@drawable/error" />
+
+    <ImageView
+        android:id="@+id/imageViewInformacao"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginRight="128dp"
+        android:layout_marginBottom="74dp"
+        android:contentDescription="@string/imageInformacao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewProfessor"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRendimento"
+        app:srcCompat="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/imageViewRendimento"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="69dp"
+        android:contentDescription="@string/imageRendimento"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewInformacao"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewExcesso"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCalculadora"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/money" />
+
+    <ImageView
+        android:id="@+id/imageViewCalculadora"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginBottom="69dp"
+        android:contentDescription="@string/imageCalculadora"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewProfessor"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewRendimento"
+        app:layout_constraintStart_toEndOf="@+id/imageViewFormulas"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calculator" />
+
+    <ImageView
+        android:id="@+id/imageViewDoacoes"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="74dp"
+        android:contentDescription="@string/imageDoacao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewProfessor"
+        app:layout_constraintStart_toEndOf="@+id/imageViewLimitante"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFormulas"
+        app:srcCompat="@drawable/savings" />
+
+    <ImageView
+        android:id="@+id/imageViewProfessor"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="74dp"
+        android:contentDescription="@string/imageProfessor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewInformacao"
+        app:layout_constraintStart_toEndOf="@+id/imageViewDoacoes"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCalculadora"
+        app:srcCompat="@drawable/flask" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/notas_de_apfq"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNotas" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/f_rmulas"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFormulas"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFormulas" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/c_lculadora"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCalculadora"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCalculadora" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/rendimento"
+        app:layout_constraintStart_toStartOf="@+id/imageViewRendimento"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewRendimento" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="194dp"
+        android:text="@string/excesso"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewExcesso"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewExcesso" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/limitante"
+        app:layout_constraintStart_toStartOf="@+id/imageViewLimitante"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLimitante" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/doa_es"
+        app:layout_constraintStart_toStartOf="@+id/imageViewDoacoes"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDoacoes" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/padroniza_o"
+        app:layout_constraintStart_toStartOf="@+id/imageViewProfessor"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProfessor" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/informa_es"
+        app:layout_constraintStart_toStartOf="@+id/imageViewInformacao"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewInformacao" />
+</android.support.constraint.ConstraintLayout>
